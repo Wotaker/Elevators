@@ -1,0 +1,40 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(d8c0e78e-3060-44d7-a517-d4b0125d12ec), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\wojci\OneDrive\Pulpit\AGH\Staże\AVSystems\task2\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\wojci\OneDrive\Pulpit\AGH\Staże\AVSystems\task2\src\main\scala\Parser.scala:42:14: patterns after a variable pattern cannot match (SLS 8.1.1)[0m
+[0m[[0m[33mwarn[0m] [0m[0mIf you intended to match against value h in class Parser, you must use backticks, like: case `h` =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m        case h => println(help)[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\wojci\OneDrive\Pulpit\AGH\Staże\AVSystems\task2\src\main\scala\Parser.scala:43:23: unreachable code due to variable pattern 'h' on line 42[0m
+[0m[[0m[33mwarn[0m] [0m[0mIf you intended to match against value q in class Parser, you must use backticks, like: case `q` =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m        case q => run = false[0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\wojci\OneDrive\Pulpit\AGH\Staże\AVSystems\task2\src\main\scala\Parser.scala:44:46: unreachable code due to variable pattern 'h' on line 42[0m
+[0m[[0m[33mwarn[0m] [0m[0m        case newSymulation(_) => myElevators = new ElevatorSystem(buffor.tail.toInt)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\wojci\OneDrive\Pulpit\AGH\Staże\AVSystems\task2\src\main\scala\Parser.scala:45:22: unreachable code due to variable pattern 'h' on line 42[0m
+[0m[[0m[33mwarn[0m] [0m[0mIf you intended to match against value step in class Parser, you must use backticks, like: case `step` =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m        case step => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\wojci\OneDrive\Pulpit\AGH\Staże\AVSystems\task2\src\main\scala\Parser.scala:49:40: unreachable code due to variable pattern 'h' on line 42[0m
+[0m[[0m[33mwarn[0m] [0m[0mIf you intended to match against value down in class Parser, you must use backticks, like: case `down` =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m        case down => myElevators.pickup((buffor.tail.toInt, -1))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\wojci\OneDrive\Pulpit\AGH\Staże\AVSystems\task2\src\main\scala\Parser.scala:50:38: unreachable code due to variable pattern 'h' on line 42[0m
+[0m[[0m[33mwarn[0m] [0m[0mIf you intended to match against value up in class Parser, you must use backticks, like: case `up` =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m        case up => myElevators.pickup((buffor.tail.toInt, 1))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\wojci\OneDrive\Pulpit\AGH\Staże\AVSystems\task2\src\main\scala\Parser.scala:51:30: unreachable code due to variable pattern 'h' on line 42[0m
+[0m[[0m[33mwarn[0m] [0m[0mIf you intended to match against value order in class Parser, you must use backticks, like: case `order` =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m        case order => println("Orders not yet implemented")[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\wojci\OneDrive\Pulpit\AGH\Staże\AVSystems\task2\src\main\scala\Parser.scala:52:16: unreachable code due to variable pattern 'h' on line 42[0m
+[0m[[0m[33mwarn[0m] [0m[0m        case _ =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m8 warnings found[0m
+[0m[[0m[33mwarn[0m] [0m[0mCanceling execution...[0m
+[0m[[0m[31merror[0m] [0m[0mCancelled: run[0m
+[0m[[0m[31merror[0m] [0m[0mCancelled: run[0m
+[0m[[0m[31merror[0m] [0m[0mUse 'last' for the full log.[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

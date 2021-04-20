@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(3148d220-3a84-46c9-a768-39c039b65494), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\wojci\OneDrive\Pulpit\AGH\Staże\AVSystems\task2\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\wojci\OneDrive\Pulpit\AGH\Staże\AVSystems\task2\src\main\scala\Symulation.scala:3:57: not found: type ActionListener[0m
+[0m[[0m[31merror[0m] [0m[0mclass Symulation(val elevators: ElevatorSystem) extends ActionListener with KeyListener {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\wojci\OneDrive\Pulpit\AGH\Staże\AVSystems\task2\src\main\scala\Symulation.scala:3:77: not found: type KeyListener[0m
+[0m[[0m[31merror[0m] [0m[0mclass Symulation(val elevators: ElevatorSystem) extends ActionListener with KeyListener {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 8 s, completed Apr 19, 2021, 3:02:12 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
